@@ -1,0 +1,19 @@
+html {
+    background: url("../images/congruent_pentagon/congruent_pentagon.png");
+}
+#title {
+    background: url("../images/sakura/sakura.png");
+    color: coral;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px 10px 20px 10px;
+    position: absolute;
+
+}
+#rules {
+    background: url("../images/beige-tiles/beige-tiles.png");
+    margin-top: 100px;
+    position: absolute;
+    width: 400px;
+    color: cadetblue;
+}
