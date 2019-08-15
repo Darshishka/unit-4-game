@@ -3,7 +3,7 @@
     <head>
         <title>Crystal Collector</title>
         <link rel="stylesheet" href="assets/css/style.css">
-        <script src="assets/javascript/game.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     </head>
     <body>
         <div id="title">Crystal Collector!</div>
@@ -18,5 +18,18 @@
             <br>
             <p>If your total goes above the starting value, you lose.</p>
         </div>
+        <div id="goalNum"></div>
+        <div id="stats">Wins</div>
+        <div id="gems">
+            <input id="blueGem" type="image" src="./assets/images/blue gem.png">
+            <input id="greenGem" type="image" src="./assets/images/green gem.png">
+            <input id="redGem" type="image" src="./assets/images/red gem.png">
+            <input id="yellowGem" type="image" src="./assets/images/yellow gem.png">
+        </div>
+        <div id="total">
+            Your total is:
+            <div id="totalNum"></div>
+        </div>
+        <script src="assets/javascript/game.js"></script>
     </body>
 </html>

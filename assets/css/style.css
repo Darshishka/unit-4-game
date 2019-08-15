@@ -7,13 +7,56 @@ html {
     font-size: xx-large;
     font-weight: bold;
     padding: 20px 10px 20px 10px;
-    position: absolute;
+    position: unset;
 
 }
 #rules {
     background: url("../images/beige-tiles/beige-tiles.png");
-    margin-top: 100px;
-    position: absolute;
+    margin-top: 5px;
+    position: relative;
     width: 400px;
     color: cadetblue;
+    padding: 5px;
+}
+#goalNum {
+    background-color: powderblue;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 105px;
+    width: 145px;
+    color: darkcyan;
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    padding-top: 50px;
+}
+#stats {
+    background-color: aliceblue;
+    margin-left: 160px;
+    height: 145px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    position: absolute;
+    color: teal;
+}
+input {
+    margin-top: 175px;
+    margin-right: 5px;
+    height: 70px;
+    weight: 70px;
+}
+#total {
+    color: darkmagenta;
+    background-color: thistle;
+    width: 200px;
+}
+#totalNum {
+    text-align: center;
+    font-weight: bolder;
+    height: 145px;
+    font-size: -webkit-xxx-large;
+    padding-top: 50px;
 }
