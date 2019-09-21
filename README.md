@@ -6,3 +6,6 @@ This project uses a combination of html for the layout of the webpage, javascrip
 
 ## How to use
 The game is played by clicking on the crystals near the bottom of the screen.
+
+### Deployed Link
+https://darshishka.github.io/unit-4-game/
